@@ -330,14 +330,6 @@
  *
  * @param {String}
  * @return {Bool when False, String when True}
-  var beers = {
-  IPA : "Ale",
-  Lager : "Strong",
-  Heffeweisen : "German",
-  Stout : ["Thick", "Dark"],
-  Porter : "Bitter",
-  Ale : ["Light", "Golden"]
-};
  *
  */
  function drink(beer) {
@@ -363,14 +355,14 @@ console.log(beers);
  * @return {String if true else return false}
  *
  */
-// function browseURL(string) {
-//   console.log(browsers);
-// if(browsers.indexOf(string) !== -1) {
-
-// } else {
-//   return false;
-// }
-//}
+function browseURL(string) {
+  console.log(browsers);
+if(!browsers[string]) {
+  return false;
+} else {
+  return browsers[string];
+}
+}
 
 /* Step 25
  *
