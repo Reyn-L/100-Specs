@@ -308,7 +308,13 @@
  * @return {Bool}
  *
  */
-
+ function installLinux(string) {
+  if(linuxFlavors.indexOf(string) !== -1){
+    return true;
+  }else {
+    return false;
+  }
+}
 /* Step 23
  *
  * Define a function named "drink" that takes
