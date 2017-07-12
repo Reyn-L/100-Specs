@@ -433,7 +433,7 @@
  *   earnMoney
  *
  */
-class Person {
+ class Person {
   constructor(name, money, age, gender) {
     this.name = name;
     this.money = money;
@@ -442,7 +442,7 @@ class Person {
   }
 
   spendMoney(price) {
-this.money -= price;
+    this.money -= price;
   }
 
   earnMoney(cash) {
@@ -461,7 +461,7 @@ this.money -= price;
  * @return {String}
  *
  */
-function purchaseLaptop(laptop) {
+ function purchaseLaptop(laptop) {
   if(!laptopCosts[laptop]){
     return -1;
   } else {
@@ -480,7 +480,15 @@ function purchaseLaptop(laptop) {
  * @return {Bool}
  *
  */
-
+ function canTalkAbout(club) {
+  console.log(club);
+  console.log(club_name);
+  if(club === club_name) {
+    return false;
+  } else {
+    return true;
+  }
+}
 
 /* Step 30
  *
