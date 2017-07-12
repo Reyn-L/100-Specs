@@ -461,7 +461,13 @@ this.money -= price;
  * @return {String}
  *
  */
-
+function purchaseLaptop(laptop) {
+  if(!laptopCosts[laptop]){
+    return -1;
+  } else {
+    return laptopCosts[laptop].toString();
+  }
+}
 
 /* Step 29
  *
