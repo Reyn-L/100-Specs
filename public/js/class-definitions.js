@@ -46,7 +46,7 @@ var galilean_moons = ['io', "europa", "ganymede", "callisto"];
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-
+var golden_ratio = 1.61803398874;
 
 /* Step 7
  *
