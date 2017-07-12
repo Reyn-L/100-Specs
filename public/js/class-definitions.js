@@ -330,10 +330,28 @@
  *
  * @param {String}
  * @return {Bool when False, String when True}
+  var beers = {
+  IPA : "Ale",
+  Lager : "Strong",
+  Heffeweisen : "German",
+  Stout : ["Thick", "Dark"],
+  Porter : "Bitter",
+  Ale : ["Light", "Golden"]
+};
  *
  */
+ function drink(beer) {
+console.log(beers);
+  if(!beers[beer]) {
+    return false;
+  }
+  else if (beers[beer] instanceof Array ) {
+    return "This " + beer + " is " + beers[beer][0] + " and " + beers[beer][1] + ".";
+  } else {
 
-
+    return "This " + beer + " is " + beers[beer] + ".";
+  }
+}
 /* Step 24
  *
  * Define a function named "browseURL" that takes
@@ -341,11 +359,18 @@
  * If the browser doesn't exist, return false.
  * If the browser exists, return the value which is a partial URL.
  *
- * @param {String}
+ * @param {string}
  * @return {String if true else return false}
  *
  */
+// function browseURL(string) {
+//   console.log(browsers);
+// if(browsers.indexOf(string) !== -1) {
 
+// } else {
+//   return false;
+// }
+//}
 
 /* Step 25
  *
