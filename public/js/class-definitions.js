@@ -403,8 +403,14 @@
  * @return {String}
  *
  */
-
-
+ function favoritePlanet(string) {
+  let randomPlanet = planets[Math.floor(Math.random() *planets.length)];
+  if(planets.indexOf(string) !== -1) {
+    return "I'm from " + string + ", but I wish I could go to " + randomPlanet;
+  } else {
+    return string + " is not a planet!";
+  }
+}
 /* Step 27
  *
  * Define a class named "Person" that has properties for
@@ -427,7 +433,22 @@
  *   earnMoney
  *
  */
+class Person {
+  constructor(name, money, age, gender) {
+    this.name = name;
+    this.money = money;
+    this.age = age;
+    this.gender = gender;
+  }
 
+  spendMoney(price) {
+this.money -= price;
+  }
+
+  earnMoney(cash) {
+    this.money += cash;
+  }
+}
 
 /* Step 28
  *
