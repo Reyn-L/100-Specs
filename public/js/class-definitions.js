@@ -333,7 +333,6 @@
  *
  */
  function drink(beer) {
-console.log(beers);
   if(!beers[beer]) {
     return false;
   }
@@ -355,13 +354,12 @@ console.log(beers);
  * @return {String if true else return false}
  *
  */
-function browseURL(string) {
-  console.log(browsers);
-if(!browsers[string]) {
-  return false;
-} else {
-  return browsers[string];
-}
+ function browseURL(string) {
+  if(!browsers[string]) {
+    return false;
+  } else {
+    return browsers[string];
+  }
 }
 
 /* Step 25
@@ -373,7 +371,18 @@ if(!browsers[string]) {
  * @return {String}
  *
  */
-
+ function listLivingOrgClass() {
+  return "<ul>" + "<li>" + livingOrganismClassification + "</li>" + "</ul>";
+  // let ul = document.createElement('ul');
+  // let living =  livingOrganismClassification;
+  // for(let i = 0; i < living.length; i++) {
+  //   let li = document.createElement('li');
+  //   li.innerText = living[i];
+  //   ul.appendChild(li);
+  // }
+  // console.log(ul);
+  // return
+}
 
 /* Step 26
  *
