@@ -155,7 +155,7 @@
  *  isDouble  => true
  *
  */
-var rainbow = {
+ var rainbow = {
   colors : {
     red : "#F0280A",
     orange : "#FF8800",
@@ -181,7 +181,7 @@ var rainbow = {
  * "Bieber Linux"
  *
  */
-var linuxFlavors = ["Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Bieber Linux"];
+ var linuxFlavors = ["Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Bieber Linux"];
 
 /* Step 15
  *
@@ -195,7 +195,7 @@ var linuxFlavors = ["Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Biebe
  * "cytosine"
  *
  */
-var DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine"];
+ var DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine"];
 
 /* Step 16
  *
@@ -208,7 +208,7 @@ var DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine"];
  * Surface      => 320
  *
  */
-var laptopCosts = {
+ var laptopCosts = {
   MacBook : 1500,
   Alienware: 2500,
   HP : 499,
@@ -229,7 +229,7 @@ var laptopCosts = {
  * "Species"
  *
  */
-var livingOrganismClassification = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"];
+ var livingOrganismClassification = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"];
 
 /* Step 18
  *
@@ -243,7 +243,7 @@ var livingOrganismClassification = ["Kingdom", "Phylum", "Class", "Order", "Fami
  * "cvs"
  *
  */
-var scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
+ var scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
 
 /* Step 19
  *
@@ -262,7 +262,7 @@ var scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
  *                  "Golden"
  *
  */
-var beers = {
+ var beers = {
   IPA : "Ale",
   Lager : "Strong",
   Heffeweisen : "German",
@@ -279,7 +279,7 @@ var beers = {
  * @return {String}
  *
  */
-function sahara_river() {
+ function sahara_river() {
   return "Nile River";
 }
 
@@ -293,7 +293,9 @@ function sahara_river() {
  * @return {Number}
  *
  */
-
+ function addNumbers(number, newNum) {
+  return number + newNum;
+}
 
 /* Step 22
  *
@@ -306,7 +308,6 @@ function sahara_river() {
  * @return {Bool}
  *
  */
-
 
 /* Step 23
  *
