@@ -481,8 +481,6 @@
  *
  */
  function canTalkAbout(club) {
-  console.log(club);
-  console.log(club_name);
   if(club === club_name) {
     return false;
   } else {
@@ -510,7 +508,12 @@
  *   write
  *
  */
-
+ function Pen (color) {
+  this.color = color;
+}
+Pen.prototype.write = function(message) {
+  return this.color + ": " + message;
+};
 
 /* Step 31
  *
