@@ -1,10 +1,11 @@
+/*jshint esversion: 6 */
 /* Step 1
  *
  * Declare a variable named "unicorn"
  * then set it's value to null;
  *
  */
-var unicorn = null;
+ var unicorn = null;
 
 /* Step 2
  *
@@ -12,7 +13,7 @@ var unicorn = null;
  * then assign it to be the value of "Atari"
  *
  */
-var videogame_system = "Atari";
+ var videogame_system = "Atari";
 
 /* Step 3
  *
@@ -20,7 +21,7 @@ var videogame_system = "Atari";
  * and assign the value of sahara_animal to "The Addax"
  *
  */
-var sahara_animal = "The Addax";
+ var sahara_animal = "The Addax";
 
 /* Step 4
  *
@@ -29,7 +30,7 @@ var sahara_animal = "The Addax";
  * each planet in our solar system, in order of distance from the sun
  * Capitalize the names.
  */
-var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+ var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
 
 /* Step 5
  *
@@ -38,7 +39,7 @@ var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus
  * each galilean moon of Jupiter
  *
  */
-var galilean_moons = ['io', "europa", "ganymede", "callisto"];
+ var galilean_moons = ['io', "europa", "ganymede", "callisto"];
 
 /* Step 6 φ
  *
@@ -46,7 +47,7 @@ var galilean_moons = ['io', "europa", "ganymede", "callisto"];
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-var golden_ratio = 1.61803398874;
+ var golden_ratio = 1.61803398874;
 
 /* Step 7
  *
@@ -54,7 +55,7 @@ var golden_ratio = 1.61803398874;
  * and assign the value of earths_water_composition to 0.71
  *
  */
-var earths_water_composition = 0.71;
+ var earths_water_composition = 0.71;
 
 /* Step 8
  *
@@ -62,7 +63,7 @@ var earths_water_composition = 0.71;
  * and assign the value of club_name to "Fight Club"
  *
  */
-var club_name = "Fight Club";
+ var club_name = "Fight Club";
 
 /* Step 9
  *
@@ -73,6 +74,12 @@ var club_name = "Fight Club";
  *   male    => "male"
  *   unknown => undefined
  */
+ var gender = {
+  female : "female",
+  male : "male",
+  unknown : undefined
+};
+
 
 
 /* Step 10
@@ -992,9 +999,9 @@ var dinner;
  * and assign the values to each variable below.
  *
  */
-var warmBloodedAnimal;
-var coldBloodedAnimal;
-var notWarmOrColdAnimal;
+ var warmBloodedAnimal;
+ var coldBloodedAnimal;
+ var notWarmOrColdAnimal;
 
 
 /* Step 92
@@ -1003,8 +1010,8 @@ var notWarmOrColdAnimal;
  * and assign the values to each variable below.
  *
  */
-var streetDriving;
-var forwardDriving;
+ var streetDriving;
+ var forwardDriving;
 
 
  /* Step 93
@@ -1013,8 +1020,8 @@ var forwardDriving;
  * and assign the values to each variable below.
  *
  */
-var decagon;
-var polygon;
+ var decagon;
+ var polygon;
 
 
 /* Step 94
@@ -1023,8 +1030,8 @@ var polygon;
  * and assign the values to each variable below.
  *
  */
-var openAClosedBox;
-var closeAnOpenBox;
+ var openAClosedBox;
+ var closeAnOpenBox;
 
 
  /* Step 95
@@ -1033,8 +1040,8 @@ var closeAnOpenBox;
  * and assign the values to each variable below.
  *
  */
-var openAClosedDoor;
-var closeAnOpenDoor;
+ var openAClosedDoor;
+ var closeAnOpenDoor;
 
 
 /* Step 96
@@ -1043,8 +1050,8 @@ var closeAnOpenDoor;
  * and assign the values to each variable below.
  *
  */
-var redShoesSize7;
-var blackShoesSize10;
+ var redShoesSize7;
+ var blackShoesSize10;
 
 
  /* Step 97
@@ -1053,8 +1060,8 @@ var blackShoesSize10;
  * and assign the values to each variable below.
  *
  */
-var farTooTallAStory;
-var shortStory;
+ var farTooTallAStory;
+ var shortStory;
 
 
  /* Step 98
@@ -1063,8 +1070,8 @@ var shortStory;
  * and assign the values to each variable below.
  *
  */
-var kitchenLightsOn;
-var porchLightsOff;
+ var kitchenLightsOn;
+ var porchLightsOff;
 
 
  /* Step 99
@@ -1073,8 +1080,8 @@ var porchLightsOff;
  * and assign the values to each variable below.
  *
  */
-var cookieMonsterPwns;
-var cookieMonsterBlocked;
+ var cookieMonsterPwns;
+ var cookieMonsterBlocked;
 
 
  /* Step 100
@@ -1083,5 +1090,5 @@ var cookieMonsterBlocked;
  * and assign the values to each variable below.
  *
  */
-var badForYou;
-var goodForYou;
+ var badForYou;
+ var goodForYou;
