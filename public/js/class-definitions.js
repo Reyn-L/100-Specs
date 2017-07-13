@@ -974,7 +974,15 @@ class Vehicle {
  * value of the sides property to null.
  *
  */
-
+class Shape {
+  constructor(sides) {
+    this.sides = sides;
+    console.log(this.sides);
+    if(this.sides < 3 || isNaN(this.sides)) {
+      this.sides = null;
+    }
+  }
+}
 
 /**
  * Step 53
