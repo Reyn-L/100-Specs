@@ -1005,7 +1005,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  */
  class Door {
   constructor(isOpen) {
-    this.isOpen = true;
+    this.isOpen = isOpen;
   }
 }
 
@@ -1043,7 +1043,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  */
  class Lightbulb {
   constructor(isOn) {
-    this.isOn = true;
+    this.isOn = isOn;
   }
 }
 
@@ -1094,7 +1094,7 @@ var catBox = new Box(new Animal("Cat"), true);
 var christmasPresent = new Box("dog", false);
 
 // Create 2 doors
-var automaticDoor;
+var automaticDoor = new Door(true);
 var bankVault;
 
 // Create 2 shoes
