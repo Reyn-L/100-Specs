@@ -1042,7 +1042,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  * Lightbulb class
  * @param {boolean} isOn Whether the light is on or off
  */
-class Lightbulb {
+ class Lightbulb {
   constructor(isOn) {
     this.isOn = true;
   }
@@ -1054,7 +1054,7 @@ class Lightbulb {
  * Cookie class
  * @param {string} flavor The cookie's flavor
  */
-class Cookie {
+ class Cookie {
   constructor(flavor) {
     this.flavor = flavor;
   }
@@ -1066,7 +1066,11 @@ class Cookie {
  * Meal class
  * @param {Array} foods All the foods in the meal
  */
-
+ class Meal {
+  constructor(foods) {
+    this.foods = foods;
+  }
+}
 
 /**
  * Create a new instance of the Classes you defined above, below!
