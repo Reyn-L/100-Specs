@@ -993,7 +993,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  class Box {
   constructor(contents, isOpen) {
     this.contents = contents;
-    this.isOpen = false;
+    this.isOpen = true;
   }
 }
 
@@ -1090,7 +1090,7 @@ var square = new Shape(4);
 var hexagon = new Shape(6);
 
 // Create 2 boxes
-var catBox;
+var catBox = new Box(new Animal("Cat"), true);
 var christmasPresent;
 
 // Create 2 doors
