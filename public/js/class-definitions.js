@@ -958,7 +958,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  * @param {string} make The vehicle's make
  * @param {string} model The vehicle's model
  */
-class Vehicle {
+ class Vehicle {
   constructor(make, model) {
     this.make = make;
     this.model = model;
@@ -974,7 +974,7 @@ class Vehicle {
  * value of the sides property to null.
  *
  */
-class Shape {
+ class Shape {
   constructor(sides) {
     this.sides = sides;
     console.log(this.sides);
@@ -991,7 +991,7 @@ class Shape {
  * @param {anything} contents The contents of the box
  * @param {boolean} isOpen     Whether the box is opened or closed
  */
-class Box {
+ class Box {
   constructor(contents, isOpen) {
     this.contents = contents;
     this.isOpen = false;
@@ -1004,7 +1004,7 @@ class Box {
  * Door class
  * @param {boolean} isOpen Whether the door is opened or closed
  */
-class Door {
+ class Door {
   constructor(isOpen) {
     this.isOpen = true;
   }
@@ -1017,7 +1017,7 @@ class Door {
  * @param {number} size  The shoe size
  * @param {string} color The shoe color
  */
-class Shoe {
+ class Shoe {
   constructor(size, color) {
     this.size = size;
     this.color = color;
@@ -1030,7 +1030,11 @@ class Shoe {
  * House class
  * @param {number} stories How many stories tall the house is
  */
-
+ class House {
+  constructor(stories) {
+    this.stories = stories;
+  }
+}
 
 /**
  * Step 57
