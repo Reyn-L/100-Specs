@@ -718,7 +718,7 @@ Stapler.prototype.staplePapers = function(numPaper) {
  *   addDiscovery
  *
  */
-function Scientist(name, money, age, gender) {
+ function Scientist(name, money, age, gender) {
   this.name = name;
   this.money = money;
   this.age = age;
@@ -742,14 +742,14 @@ Scientist.prototype.checkDiscipline = function(check) {
 };
 
 Scientist.prototype.addDiscovery = function(discovery) {
-this.discoveries.push(discovery);
-if(this.discoveries.length === 1) {
-  return "I discovered Gravity.";
-} else if(this.discoveries.length === 2) {
-  return "I discovered Gravity and Theory of Relativity.";
-} else {
-  return "I discovered Gravity, Theory of Relativity, and Jesus Christ.";
-}
+  this.discoveries.push(discovery);
+  if(this.discoveries.length === 1) {
+    return "I discovered Gravity.";
+  } else if(this.discoveries.length === 2) {
+    return "I discovered Gravity and Theory of Relativity.";
+  } else {
+    return "I discovered Gravity, Theory of Relativity, and Jesus Christ.";
+  }
 };
 
 /* Step 36
@@ -944,7 +944,12 @@ if(this.discoveries.length === 1) {
  * @param {string} species The animal species
  * @param {string} gender  male or female
  */
-
+ class Animal {
+  constructor(species, gender) {
+    this.species = species;
+    this.gender = gender;
+  }
+}
 
 /**
  * Step 51
