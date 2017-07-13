@@ -576,7 +576,7 @@ Garden.prototype.grow = function() {
  *   removePlanet
  *
  */
-function SolarSystem() {
+ function SolarSystem() {
   this.planets = [];
 }
 
@@ -626,9 +626,9 @@ SolarSystem.prototype.removePlanet = function(remove) {
   this.age = age;
   this.gender = gender;
   this.isInTrouble = null;
- }
+}
 
- PrincessLeia.prototype = Object.create(Person.prototype);
+PrincessLeia.prototype = Object.create(Person.prototype);
 
 PrincessLeia.prototype.shootsGun = function() {
   isInTrouble = false;
@@ -667,7 +667,7 @@ PrincessLeia.prototype.marries = function(person) {
  *   staplePapers
  *
  */
-function Stapler(color, maxPapers) {
+ function Stapler(color, maxPapers) {
   this.color = color;
   this.maxPapers = maxPapers;
 }
@@ -718,7 +718,39 @@ Stapler.prototype.staplePapers = function(numPaper) {
  *   addDiscovery
  *
  */
+function Scientist(name, money, age, gender) {
+  this.name = name;
+  this.money = money;
+  this.age = age;
+  this.gender = gender;
+  this.disciplines = [];
+  this.discoveries = [];
+}
 
+Scientist.prototype = Object.create(Person.prototype);
+
+Scientist.prototype.addDiscipline = function(discipline) {
+  this.disciplines.push(discipline);
+};
+
+Scientist.prototype.checkDiscipline = function(check) {
+  if(this.disciplines.indexOf(check) !== -1) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+Scientist.prototype.addDiscovery = function(discovery) {
+this.discoveries.push(discovery);
+if(this.discoveries.length === 1) {
+  return "I discovered Gravity.";
+} else if(this.discoveries.length === 2) {
+  return "I discovered Gravity and Theory of Relativity.";
+} else {
+  return "I discovered Gravity, Theory of Relativity, and Jesus Christ.";
+}
+};
 
 /* Step 36
  *
