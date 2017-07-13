@@ -993,7 +993,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  class Box {
   constructor(contents, isOpen) {
     this.contents = contents;
-    this.isOpen = true;
+    this.isOpen = isOpen;
   }
 }
 
