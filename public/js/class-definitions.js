@@ -977,7 +977,6 @@ Scientist.prototype.addDiscovery = function(discovery) {
  class Shape {
   constructor(sides) {
     this.sides = sides;
-    console.log(this.sides);
     if(this.sides < 3 || isNaN(this.sides)) {
       this.sides = null;
     }
@@ -1079,7 +1078,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
 
 
 // Create 2 different species of animals
-var george;
+var george = new Animal("Monkey", 'male');
 var nemo;
 
 // Create 2 different vehicles
