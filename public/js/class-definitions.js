@@ -1004,7 +1004,11 @@ class Box {
  * Door class
  * @param {boolean} isOpen Whether the door is opened or closed
  */
-
+class Door {
+  constructor(isOpen) {
+    this.isOpen = true;
+  }
+}
 
 /**
  * Step 55
