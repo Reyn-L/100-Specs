@@ -941,7 +941,7 @@ Scientist.prototype.addDiscovery = function(discovery) {
  * Step 50
  *
  * Animal class
- * @param {string} species The animal species
+ * @param {string} species The animal specgities
  * @param {string} gender  male or female
  */
  class Animal {
@@ -958,7 +958,12 @@ Scientist.prototype.addDiscovery = function(discovery) {
  * @param {string} make The vehicle's make
  * @param {string} model The vehicle's model
  */
-
+class Vehicle {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+  }
+}
 
 /**
  * Step 52
