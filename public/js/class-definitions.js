@@ -583,7 +583,6 @@ function SolarSystem() {
 SolarSystem.prototype.addPlanet = function(add) {
   return this.planets.push(add);
 };
-console.log(this.planets);
 
 SolarSystem.prototype.removePlanet = function(remove) {
   return this.planets.splice(remove);
@@ -640,7 +639,18 @@ SolarSystem.prototype.removePlanet = function(remove) {
  *   staplePapers
  *
  */
+function Stapler(color, maxPapers) {
+  this.color = color;
+  this.maxPapers = maxPapers;
+}
 
+Stapler.prototype.staplePapers = function(numPaper) {
+  if(this.maxPapers < numPaper) {
+    return false;
+  } else {
+    return true;
+  }
+};
 
 /* Step 35
  *
